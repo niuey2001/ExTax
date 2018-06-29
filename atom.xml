@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NIUWENHUI</title>
+  
+  <subtitle>BLOG</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://localhost:4000/"/>
+  <updated>2018-06-29T03:14:09.344Z</updated>
+  <id>http://localhost:4000/</id>
+  
+  <author>
+    <name>[object Object]</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gitalk</title>
+    <link href="http://localhost:4000/2018/06/29/Gitalk/"/>
+    <id>http://localhost:4000/2018/06/29/Gitalk/</id>
+    <published>2018-06-29T02:11:26.000Z</published>
+    <updated>2018-06-29T03:14:09.344Z</updated>
+    
+    <content type="html"><![CDATA[<p>Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。</p><h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1><hr><ul><li>使用 GitHub 登录</li><li>支持多语言 [en, zh-CN, zh-TW, es-ES, fr, ru]</li><li>支持个人或组织</li><li>无干扰模式（设置 distractionFreeMode 为 true 开启）</li><li>快捷键提交评论 <code>（cmd|ctrl + enter）</code><br><a href="https://gitalk.github.io/" target="_blank" rel="noopener">在线示例</a></li></ul><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><hr><p>两种方式</p><ul><li><p>直接引入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=<span class="string">"stylesheet"</span> href=<span class="string">"https://unpkg.com/gitalk/dist/gitalk.css"</span>&gt; </span><br><span class="line">&lt;script src=<span class="string">"https://unpkg.com/gitalk/dist/gitalk.min.js"</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></li><li><p>npm安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save gitalk</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">import <span class="string">'gitalk/dist/gitalk.css'</span></span><br><span class="line">import Gitalk from <span class="string">'gitalk'</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><hr><p>需要 GitHub Application，如果没有 <a href="https://github.com/settings/applications/new" target="_blank" rel="noopener">点击这里申请</a>，Authorization callback URL 填写当前使用插件页面的域名。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var gitalk = new Gitalk(&#123;</span><br><span class="line">  clientID: <span class="string">'GitHub Application Client ID'</span>,</span><br><span class="line">  clientSecret: <span class="string">'GitHub Application Client Secret'</span>,</span><br><span class="line">  repo: <span class="string">'GitHub repo'</span>,</span><br><span class="line">  owner: <span class="string">'GitHub repo owner'</span>,</span><br><span class="line">  admin: [<span class="string">'GitHub repo owner and collaborators, only these guys can initialize github issues'</span>],</span><br><span class="line">  id: location.pathname,      // Ensure uniqueness and length less than 50</span><br><span class="line">  distractionFreeMode: <span class="literal">false</span>  // Facebook-like distraction free mode</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">gitalk.render(<span class="string">'gitalk-container'</span>)</span><br></pre></td></tr></table></figure></p><h1 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h1><hr><ul><li>clientID <code>String</code><br><strong>必须</strong>. GitHub Application Client ID.</li><li>clientSecret <code>String</code><br><strong>必须</strong>. GitHub Application Client Secret.</li><li>repo <code>String</code><br><strong>必须</strong>. GitHub repository.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。&lt;/p&gt;
+&lt;h1 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot; class=&quot;headerlink&quot; title=&quot;特性&quot;&gt;&lt;/a&gt;特性&lt;/h1&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 GitHu
+      
+    
+    </summary>
+    
+      <category term="工作学习" scheme="http://localhost:4000/categories/%E5%B7%A5%E4%BD%9C%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="git" scheme="http://localhost:4000/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>喜马拉雅FM</title>
+    <link href="http://localhost:4000/2018/06/28/hello-world/"/>
+    <id>http://localhost:4000/2018/06/28/hello-world/</id>
+    <published>2018-06-28T09:01:50.000Z</published>
+    <updated>2018-06-29T01:57:34.906Z</updated>
+    
+    <content type="html"><![CDATA[<p><object type="application/x-shockwave-flash" id="ximalaya_player" data="http://www.ximalaya.com/swf/sound/red.swf?id=95501754" width="260" height="36"></object></p><blockquote><p>我慢慢地、慢慢地了解到，所谓父女母子一场，只不过意味着，你和他的缘分就是今生今世不断地在目送他的背影渐行渐远。你站立在小路的这一端，看着他逐渐消失在小路转弯的地方，而且，他用背影默默告诉你：不必追。</p></blockquote><p>这句风靡人心的话语，被印在《目送》的腰封上，旁边还有几个标黑加粗的醒目字眼——跨三代共读的人生之书。</p><blockquote><p>活着，带着世界赋予我们的裂痕去生活，去用残损的手掌抚平彼此的创痕，固执地迎向幸福。</p></blockquote><p>没有一种命运是对人的惩罚，而只要竭尽全力就应该是幸福的，拥抱当下的光明，不寄希望于空渺的乌托邦，振奋昂扬，因为生存本身就是对荒诞最有力的反抗。</p><blockquote><p>美好的人生，不外乎顺从本心去生活，跟随自己的感觉，做想做的事，爱想爱的人。美好不是想要什么就有什么，而是有所取舍并坚持过有美感的人生的过程。</p></blockquote><p>活在细节里，不是活在目的里，把生命浪费在美好事物上。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;object type=&quot;application/x-shockwave-flash&quot; id=&quot;ximalaya_player&quot; data=&quot;http://www.ximalaya.com/swf/sound/red.swf?id=95501754&quot; width=&quot;260
+      
+    
+    </summary>
+    
+      <category term="读书" scheme="http://localhost:4000/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://localhost:4000/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+</feed>
